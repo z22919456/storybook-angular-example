@@ -1,0 +1,12 @@
+<div class="user">
+  <img [src]="src" [alt]="name" class="avatar" />
+  <div>
+    <p class="name">{{name}}</p>
+    <p class="org">{{org}}</p>
+    <div class="like">
+      <button type="button" (click)="handleLike()">❤️</button>
+      <span> {{liked}}</span>
+    </div>
+  </div>
+
+</div>
